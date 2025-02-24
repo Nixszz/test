@@ -1,0 +1,25 @@
+
+:root {
+    --primary-color: #fcfcfc;
+    --secondary-color: #ffffff;
+    --background-color: #000000;
+    --text-color: #212121;
+    --accent-color: #2196f3;
+    --border-color: #e0e0e0;
+}
+
+/* Example usage */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+
+button {
+    background-color: var(--accent-color);
+    border: 1px solid var(--border-color);
+    color: var(--secondary-color);
+}
