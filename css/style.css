@@ -1,10 +1,14 @@
 :root {
-    --primary-color: #000000;
-    --secondary-color: hsl(0, 0%, 0%);
-    --background-color: #ffffff;
-    --text-color: #212121;
     --accent-color: #2196f3;
+    --logo: #000;
+    --text-color: #212121;
+    --desk-color: #757575;
     --border-color: #ffffff;
+    --main-color: #FFF;
+    --team-background: #F5F4FA;
+    --footer-contact: rgba(255, 255, 255, 0.60);
+    --footer-background: #2f303A;
+    --portfolio-line: #ECECEC;
 }
 body {
     background-color: var(--background-color);
