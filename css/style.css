@@ -10,20 +10,32 @@
         --footer-background: #2f303A;
         --portfolio-line: #ECECEC;
     }
+    html {
+        
+    }
+    body {
+
+        font-family: ‘Inter’;
+    }
     .header__logo {
-        color: var(--logo);
+        color: #000;
         font-family: "Raleway";
+        font-size: 24px;
         font-weight: 700;
         line-height: 1.38;
-        font-size: 24px;
-        letter-spacing: 0.78px;
-        margin-right: auto;
-        background-size: cover;
-        background-position: center;
-        -webkit-background-clip: text;
-                background-clip: text;
-        color: transparent;
-    }
+        letter-spacing: 0.72px;
+        }
+        .header__logo {
+            margin-right: 88px;
+            }
+            .header__logo {
+                font-size: 26px;
+                letter-spacing: 0.78px;
+                margin-right: 93px;
+            }
+            .header__color {
+                color: #2196f3;
+            }
     .header__cell {
         color: var(--desk-color);
         font-size: 12px;
